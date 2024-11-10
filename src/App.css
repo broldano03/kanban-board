@@ -65,3 +65,35 @@
     margin-top: 20px;
     margin-bottom: 0;
 }
+
+.add-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.add-task input {
+  width: 100%; /* Para que los campos ocupen todo el ancho del contenedor */
+  max-width: 300px; /* Ancho máximo para los campos de entrada */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.add-task button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.add-task button:hover {
+  background-color: #45a049;
+}
